@@ -1,0 +1,45 @@
+header{
+    display: grid;
+    place-content: center;
+    text-align: center;
+    background: url("nkar 2.jpg")
+  no-repeat center/cover;
+    height: 100vh;
+    color:#fff
+}
+header h1{
+    font: bold 8vh sans-serif;
+}
+header h2{
+    font: bold 4vh sans-serif;
+}
+.lang{
+    position: absolute;
+    top: 0;
+    left: 50%;
+    translate: -50%;
+    display:flex;
+}
+.lang button{
+    width:45px;
+    height:30px;
+    background: #fff;
+    padding:15px;
+    cursor:pointer;
+    background: no-repeat center/cover;
+}
+.lang button:hover{
+    translate: 0 5px;
+}
+ .lang button:first-child{
+    background-image:url("https://upload.wikimedia.org/wikipedia/commons/a/a9/Flag_of_the_United_States_%28DoS_ECA_Color_Standard%29.svg");
+width:15px;
+     height:15px;
+
+ }
+.lang button:nth-child(2){
+    background-image:linear-gradient(#f00 33.3%,#00f 33.3% 66.6%,#fa0 66.6%);
+}
+.lang button:last-child{
+    background-image:linear-gradient(#fff 33.3%,#00f 33.3% 66.6%,#f00 66.6%);
+}
